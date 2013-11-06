@@ -9,6 +9,7 @@ clear = os.system('clear');
 pealkiri = raw_input('Sisestage pealkiri: ')
 if pealkiri.isalpha() == False:
 	print 'Sisesta ainult tähed.'
+	pealkiri = raw_input('Sisestage pealkiri: ')
 else:
 	pealkiri = pealkiri.center(35,' ')
 tekst = raw_input('Sisestage tekst: ')
