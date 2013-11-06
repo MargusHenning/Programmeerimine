@@ -13,7 +13,7 @@ if pealkiri.isalpha() == False:
 else:
 	pealkiri = pealkiri.center(35,' ')
 tekst = raw_input('Sisestage tekst: ')
-tekst = tekst.center(25,'=')
+tekst = tekst.center(25,' ')
 ylemine = raw_input('Sisestage siia oma Header: ')
 ylemine = ylemine.center(60,'-')
 alumine = raw_input('Sisestage siia oma Footer: ')
